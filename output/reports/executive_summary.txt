@@ -1,0 +1,19 @@
+EXECUTIVE DASHBOARD SUMMARY
+Generated: 2026-07-14 18:54
+
+FINANCIAL PERFORMANCE
+Total Sales: LKR 242,950,291.72
+Total Profit: LKR 40,902,500.76
+Profit Margin: 16.84%
+Average Order Value: LKR 161,966.86
+
+BUSINESS ACTIVITY
+Total Orders: 1,500
+Total Customers: 433
+Units Sold: 6,122
+
+TOP PERFORMERS
+Top Region: Southern
+Top Category: Electronics
+Top Product: Mechanical Keyboard
+Top Sales Person: Ishara Madushan

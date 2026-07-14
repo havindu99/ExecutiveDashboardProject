@@ -1,0 +1,13 @@
+{
+  "name": "Executive Dashboard Theme",
+  "dataColors": [
+    "#1F4E78",
+    "#2E75B6",
+    "#70AD47",
+    "#FFC000",
+    "#C00000"
+  ],
+  "background": "#F5F7FA",
+  "foreground": "#1F2937",
+  "tableAccent": "#2E75B6"
+}
