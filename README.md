@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Executive Dashboard Project
 
 A professional Business Intelligence and Data Analytics project designed to provide leadership with key business metrics.
@@ -51,3 +52,6 @@ data/processed/executive_dashboard_dataset.csv
 ## Project Workflow
 
 Raw Data → Validation → Cleaning → Feature Engineering → KPI Calculation → Reporting → Power BI Dashboard
+=======
+# ExecutiveDashboardProject
+>>>>>>> 5023905a6ee3b57d537817b412a2c04e304ccf71
