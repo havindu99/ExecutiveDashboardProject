@@ -1,57 +1,112 @@
-<<<<<<< HEAD
-# Executive Dashboard Project
+# Executive Sales Dashboard
 
-A professional Business Intelligence and Data Analytics project designed to provide leadership with key business metrics.
+## Overview
+
+The Executive Sales Dashboard is a business intelligence project developed using Python and Microsoft Power BI. It provides executives with an interactive dashboard to monitor sales performance, profitability, customer insights, and regional performance.
 
 ## Features
 
-- Realistic retail sales dataset
-- Data validation and cleaning
-- Feature engineering
-- KPI calculation
-- Monthly growth analysis
-- Automated report generation
-- Power BI-ready processed dataset
-- Drill-down and mobile dashboard design documentation
-- Logging and test structure
+- Executive KPI Dashboard
+- Total Sales Analysis
+- Total Profit Analysis
+- Total Orders
+- Total Customers
+- Profit Margin Analysis
+- Average Order Value
+- Sales Trend by Year
+- Sales by Region
+- Sales by Category
+- Top Products Analysis
+- Interactive Year Filter
+- Mobile Layout Dashboard
+- Automated Data Pipeline
 
-## Tech Stack
+## Technologies Used
 
-- Python
+- Python 3
 - Pandas
 - NumPy
-- Power BI
-- Pytest
+- OpenPyXL
+- Power BI Desktop
 - Git
+- GitHub
 
-## Setup
+## Project Structure
+
+```
+ExecutiveDashboardProject/
+│
+├── automation/
+├── dashboard/
+│   └── powerbi.pbix
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── interim/
+├── docs/
+├── output/
+│   ├── logs/
+│   └── reports/
+├── src/
+├── tests/
+├── README.md
+└── requirements.txt
+```
+
+## KPIs
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Customers
+- Profit Margin
+- Average Order Value
+
+## Dashboard Visuals
+
+- KPI Cards
+- Sales Trend by Year
+- Sales by Region
+- Sales by Category
+- Top Products by Sales
+- Interactive Year Filter
+
+## Data Pipeline
+
+The pipeline performs:
+
+1. Data Loading
+2. Data Validation
+3. Data Cleaning
+4. Feature Engineering
+5. KPI Calculation
+6. Executive Report Generation
+
+Run the pipeline using:
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python -m automation.run_pipeline
+py -m automation.run_pipeline
 ```
 
-## Main Outputs
+## Output
 
-- `data/processed/executive_dashboard_dataset.csv`
-- `data/processed/kpi_summary.csv`
-- `data/processed/monthly_performance.csv`
-- `output/reports/executive_summary.txt`
-- `output/logs/pipeline.log`
+The project automatically generates:
 
-## Power BI Data Source
+- Cleaned Dataset
+- KPI Summary
+- Executive Report
+- Power BI Dashboard
+- Dashboard Screenshots
 
-Import:
+## Author
 
-```text
-data/processed/executive_dashboard_dataset.csv
-```
+**Havindu Perera**
 
-## Project Workflow
+SLIIT Undergraduate
 
-Raw Data → Validation → Cleaning → Feature Engineering → KPI Calculation → Reporting → Power BI Dashboard
-=======
-# ExecutiveDashboardProject
->>>>>>> 5023905a6ee3b57d537817b412a2c04e304ccf71
+GitHub:
+https://github.com/havindu99
+
+## License
+
+This project was developed for educational and portfolio purposes.
